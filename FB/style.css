@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 97vh;
+    background: #f2f4f7;
+    align-items: center;
+}
+
+.right-section img{
+    width: 319px;
+    margin-left: 4px;
+    margin-top: -8px;
+    display: block;
+}
+
+.box{
+    width: 398px;
+    height: 350px;
+    background:#ffff;
+    padding: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 7px -3px;
+}
+
+.login-group input[type=text]{
+    width: 100%;
+    padding: 15px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.login-group input[type=text]:focus{
+    outline: 1px solid #0866ff;
+}
+
+.login-group input[type=password]{
+    width: 100%;
+    padding: 15px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.login-group input[type=password]:focus{
+    outline: 1px solid #0866ff;
+}
+
+.login-btn input[type=submit]{
+    width: 100%;
+    background: #0866ff;
+    color: #ffff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box{
+    text-align: center;
+}
+.center-text{
+    margin: 15px 0px;
+    display: inline-block;
+}
+.center-text a{
+    text-decoration: none;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 400;
+}
+hr{
+    margin-bottom: 26px;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+button{
+    background: #42b72a;
+    border: none;
+    border-radius: 7px;
+    color: #ffff;
+    padding: 15px 15px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.left-section p{
+    text-align: center;
+    margin-top: 29px;
+    font-size: 14px;
+}
+.left-section p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.right-section{
+    align-self: flex-start;
+    padding-top: 184px;
+    float: left;
+    width: 55%;
+    padding-left: 241px;
+}
+h3{
+    margin-left: 34px;
+    font-size: 28px;
+    font-weight: 300;
+}
+.left-section{
+    margin-right: 115px;
+    margin-bottom: 54px;
+    float: left;
+    padding-top: 131px;
+    padding-left: 4px;
+}
